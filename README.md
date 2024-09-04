@@ -20,7 +20,7 @@ O programa então calcula a sequência de Fibonacci até o número informado e v
 
 1. Clone este repositório:
    ```bash
-   git clone https://github.com/RicardoKorzekwa/TesteTarget.git
+   git clone https://github.com/RicardoKorzekwa/TesteTarget1.git
 2. Navegue até o diretório do projeto:
    ```bash
    cd <NOME_DO_DIRETORIO>
