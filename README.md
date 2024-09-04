@@ -1,4 +1,4 @@
-# Fibonacci Checker
+# 1 - Fibonacci Checker
 
 Este é um programa em Node.js que verifica se um número informado pertence à sequência de Fibonacci.
 
@@ -32,7 +32,7 @@ O programa então calcula a sequência de Fibonacci até o número informado e v
 
 - Quando você executa o programa, ele perguntará se você deseja digitar um número. Dependendo da sua escolha, o programa verificará o número digitado ou usará o número predefinido no código.
 
-# Verificador de letra 'A'
+# 2 - Verificador de letra 'A'
 
 Este projeto contém um programa Python que verifica a existência da letra 'a' (maiúscula ou minúscula) em uma string fornecida, além de contar e exibir quantas vezes essa letra ocorre.
 
@@ -65,6 +65,36 @@ Permite ao usuário escolher entre:
 ### Exemplo de Uso
 
 - Quando você executa o programa, ele perguntará "Você quer verificar uma string predefinida (1) ou digitar uma nova string (2)? Digite 1 ou 2: ". Dependendo da sua escolha, o programa verificará a string digitada ou usará a string predefinido no código "Exemplo de string para verificar a presença da letra a.".
+
+# 3 - Análise de código
+- Observe o trecho de código abaixo: 
+  ```bash
+   int INDICE = 12, SOMA = 0, K = 1;
+   enquanto K < INDICE faça {
+    K = K + 1;
+    SOMA = SOMA + K;
+   }
+   imprimir(SOMA);
+
+### Pré-requisitos
+
+- Node.js instalado na máquina.
+
+### Passos para execução
+
+1. Clone este repositório:
+   ```bash
+   git clone https://github.com/RicardoKorzekwa/TesteTarget1.git
+2. Navegue até o diretório do projeto:
+   ```bash
+   cd <NOME_DO_DIRETORIO>
+3. Execute o programa:
+   ```bash
+   node analiseCodigo.js
+4. Será exibido a sequência exibindo o valor de K e SOMA a cada iteração e ao final o "Resultado Final" de SOMA será exibido.
+
+### Resultado da análise
+- Após análise do código o resultado final de SOMA após todas as iterações é 77.
 
 ## Contribuição
 - Sinta-se à vontade para abrir issues ou enviar pull requests se desejar contribuir com melhorias para este projeto.
